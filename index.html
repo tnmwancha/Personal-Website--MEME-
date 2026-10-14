@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clark Kent CW</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+
+    
+   <!-- HEADER: introduction and navigation -->
+    <header id="top">
+        
+        <h1>Clark Kent</h1>
+        <p> Investigative Journalist; The Daily Planet  &amp; Upcoming Superhero </p>
+
+        <nav class="nav-link" aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#schedule">Learning Schedule</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- MAIN: the main content of the page -->
+    <main id="main-content">
+
+        <!-- ABOUT: headings, paragraphs, images, and text formatting -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+               "Hi, my name is Kal-El. I hail from Krypton, but you can think of me as a friend.
+                I'm just a kid from Kansas and as Ameican as it gets. Jounalist and father during the day and a superhero at night. 
+                I believe that no matter how dark things get, there is always hope—and I’m here to fight for truth, justice,
+                 and a better tomorrow."
+
+            </p>
+
+            <p>
+                
+            </p>
+
+            <!-- Add a photo named profile.jpg inside an images folder -->
+            <figure>
+                <img id="boyz"
+                    src="download.jpg"
+                    alt="Clark Kent"
+
+
+                >
+                <figcaption>My portfolio profile photo.</figcaption>
+            </figure>
+
+            <h3>My Goals</h3>
+
+            <ol>
+                <li>Be a successful journalist.</li>
+                <li>Be a good father.</li>
+                <li>Be a beacon of hope.</li>
+                <li>Defeat Lex Luthor.</li>
+            </ol>
+
+            <h3>My Interests</h3>
+
+            <ul>
+                <li>Journalism</li>
+                <li>Travel</li>
+                <li>Reading</li>
+                <li>Photography</li>
+            </ul>
+
+            <blockquote>
+                <p>Every project is an opportunity to practise and improve.</p>
+            </blockquote>
+        </section>
+
+        <hr>
+
+        <!-- SKILLS: description lists and progress indicators -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <dl>
+                <dt>Investigative Journalism</dt>
+                <dd>Skills in researching and reporting news stories.</dd>
+
+                <dt>Critical Thinking</dt>
+                <dd>Ability to analyze information and make reasoned judgments.</dd>
+
+                <dt>Crime Fighting</dt>
+                <dd>Skills in apprehending criminals and maintaining law and order.</dd>
+            </dl>
+
+            <h3>Goal Progress</h3>
+            <p>In my endeavors to grow as a journalist and hero, I am making steady progress.</p>
+
+            <p>
+                <label for="Defeat Lex Luthor">Defeat Lex Luthor: 40%</label>
+                <progress id="defeat-lex-luthor-progress" value="40" max="100">
+                    40%
+                </progress>
+            </p>
+
+            <p>
+                <label for="Raising Jon &amp Jordan">Raising Jon & Jordan: 30%</label>
+                <progress id="raising-jon-jordan-progress" value="30" max="100">
+                    30%
+                </progress>
+            </p>
+
+            <p>
+                <label for="Coaching the football team">Coaching the football team: 20%</label>
+                <progress id="coaching-football-progress" value="20" max="100">
+                    20%
+                </progress>
+            </p>
+
+          
+        <hr>
+
+        <!-- PROJECTS: independent content using article -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <article>
+                <h3>Daily Planet Story Tracker</h3>
+
+                <p id="text">
+                    A newsroom dashboard for tracking breaking stories,
+                    investigative leads, and article deadlines while
+                    balancing a life of journalism and hero work.
+                </p>
+
+                <p>
+                    <strong>Technologies to use:</strong>
+                    HTML, CSS, and JavaScript.
+                </p>
+
+                <details>
+                    <summary>View planned features</summary>
+
+                    <ul>
+                        <li>Add story titles and reporter notes.</li>
+                        <li>Mark each story as urgent, ongoing, or published.</li>
+                        <li>Track deadlines and priority levels.</li>
+                        <li>Filter stories by category or status.</li>
+                        <li>Save updates using localStorage.</li>
+                    </ul>
+                </details>
+            </article>
+
+            <article>
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    This HTML website introduces me and displays my
+                    skills, learning schedule, and project ideas.
+                </p>
+
+                <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Visit GitHub in a new tab
+                </a>
+            </article>
+
+            <aside>
+                <h3>Project Tip</h3>
+                <p>
+                    Start with a small working version, then add one
+                    feature at a time.
+                </p>
+            </aside>
+        </section>
+
+        <hr>
+
+        <!-- SCHEDULE: accessible table structure -->
+        <section id="schedule">
+            <h2>My Weekly Learning Schedule</h2>
+
+            <table>
+                <caption>HTML practice plan</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Topic</th>
+                        <th scope="col">Practice Task</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>Headings and paragraphs</td>
+                        <td>Write an About Me section.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>Links and images</td>
+                        <td>Add navigation and a profile photo.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>Lists and tables</td>
+                        <td>Create a skills list and a timetable.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Thursday</th>
+                        <td>Forms</td>
+                        <td>Build a contact form.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td>Semantic HTML</td>
+                        <td>Organise the page into meaningful sections.</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th scope="row">Weekly goal</th>
+                        <td colspan="2">Complete one HTML portfolio.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- MEDIA: audio and video -->
+        <section id="media">
+            <h2>My Media</h2>
+
+            <p>
+                just a simple audio introduction and a short video demonstration of my portfolio project.
+            </p>
+
+            <h3>Audio Introduction</h3>
+
+            <audio controls>
+                <source src="introduction.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p>
+                <strong>Audio transcript:</strong>
+                Hello, my name is Clark Kent. I am an investigative journalist for the Daily Planet and an upcoming superhero.
+            </p>
+
+            <h3>Project Demonstration</h3>
+
+           <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/d2cIVMe80Nk?si=kfJveW_9Cd9rASxu" 
+            title="YouTube video player" 
+            frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <p>A short demonstration of my portfolio project.</p>
+        </section>
+
+        <hr>
+
+        <!-- CONTACT: form controls and built-in validation -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                Well, this has been fun! If you have any questions or would like to collaborate,
+                 please fill out the form below and I will get back to you as soon as possible.
+                 AS LONG AS YOU ARE NOT LEX LUTHOR, I WILL REPLY.
+            </p>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <p>
+                        <label for="full-name">Full name:</label><br>
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="fullName"
+                            autocomplete="name"
+                            placeholder="Enter your full name"
+                            minlength="2"
+                            maxlength="80"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Email address:</label><br>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone number:</label><br>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            autocomplete="tel"
+                            placeholder="+1..."
+                        >
+                    </p>
+
+                    <p>
+                        <label for="meeting-date">Preferred meeting date:</label>
+                        <br>
+                        <input
+                            type="date"
+                            id="meeting-date"
+                            name="meetingDate"
+                        >
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <p>
+                        <label for="reason">Reason for contacting me:</label>
+                        <br>
+
+                        <select id="reason" name="reason" required>
+                            <option value="">Choose a reason</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="id">Uncovering my ID</option>
+                            <option value="feedback">Portfolio feedback</option>
+                        </select>
+                    </p>
+
+                    <fieldset>
+                        <legend>Preferred contact method</legend>
+
+                        <input
+                            type="radio"
+                            id="contact-email"
+                            name="contactMethod"
+                            value="email"
+                            checked
+                        >
+                        <label for="contact-email">Email</label>
+
+                        <input
+                            type="radio"
+                            id="contact-phone"
+                            name="contactMethod"
+                            value="phone"
+                        >
+                        <label for="contact-phone">Phone</label>
+                    </fieldset>
+
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            cols="30"
+                            placeholder="Write your message here"
+                            minlength="10"
+                            maxlength="1000"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="reply-request"
+                            name="replyRequested"
+                            value="yes"
+                        >
+                        <label for="reply-request">
+                            I would like a reply.
+                        </label>
+                    </p>
+
+                    <button type="submit">Submit Practice Form</button>
+                    <button type="reset">Clear Form</button>
+                </fieldset>
+            </form>
+
+            <h3>Contact Information</h3>
+
+
+            <!-- Replace these example contact details with your own -->
+             <p> Well this is for the site developer</p>
+            <address>
+                Nyaata Mwancha<br>
+                Kenya<br>
+                <a href="tnmwancha@gmail.com">
+                    tnmwancha@gmail.com
+                </a>
+            </address>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- FOOTER: information about the page -->
+    <footer>
+        <p>
+            <small>&copy; 2026 Nyaata Mwancha.</small>
+        </p>
+
+        <p>
+            Last updated:
+            <time datetime="2026-10-07">7 October 2026</time>
+        </p>
+
+</p>
+
+
+        <a href="#top">Back to top</a>
+    </footer>
+    
+</body>
+</html>
